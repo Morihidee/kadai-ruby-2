@@ -1,20 +1,19 @@
 def fizzbuzz(a)
     if (a % 3 == 0) && (a % 5 ==0)
-        puts "FizzBuzz"
+        return "FizzBuzz"
     elsif a % 3 == 0
-        puts "Fizz"
+        return "Fizz"
     elsif a % 5 == 0
-        puts "Buzz"
+        return "Buzz"
     else
-        puts a
+         a
     end
-    return 
 end
 
 num_max = 100
 i = 1
 while i <= num_max
-    fizzbuzz(i)
+    puts fizzbuzz(i)
     i += 1
 end
     
